@@ -1,0 +1,8 @@
+groq
+twilio
+newsapi-python
+python-dotenv
+sqlalchemy
+apscheduler
+requests
+feedparser
