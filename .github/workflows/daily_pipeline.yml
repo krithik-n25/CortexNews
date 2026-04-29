@@ -2,8 +2,8 @@ name: Daily AI News Pipeline
 
 on:
   schedule:
-    # Runs every 3 days at 8:00 AM IST (2:30 AM UTC)
-    - cron: '30 2 */3 * *'
+    # Runs every days at 8:00 AM IST (2:30 AM UTC)
+  - cron: '30 2 * * 1,4,0'  # Mon, Thu, Sun at 8 AM IST    
   
   # Allows you to manually trigger from GitHub UI anytime
   workflow_dispatch:
